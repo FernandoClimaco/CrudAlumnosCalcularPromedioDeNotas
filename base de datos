@@ -1,0 +1,17 @@
+create database alumnosjsp
+
+
+CREATE TABLE `alumnos` (
+  `id` int(11) NOT NULL,
+  `numeroLista` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `materia` varchar(50) NOT NULL,
+  `nota1` double NOT NULL,
+  `nota2` double NOT NULL,
+  `promedio` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+INSERT INTO `alumnos` (`id`, `numeroLista`, `nombre`, `materia`, `nota1`, `nota2`, `promedio`) VALUES
+(1, 1, 'fernando Alberto Climaco', 'electiva 4', 8, 9, 8.5),
+(10, 2, 'alma azucena', 'redes 1', 8, 9, 8.5);
